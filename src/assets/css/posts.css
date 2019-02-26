@@ -1,0 +1,22 @@
+.posts {
+    padding-top: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.top-posts-title {
+    font-size: 24pt;
+    padding-left: 44%;
+}
+
+.content {
+    width: 300px;
+    background: #222529;
+    padding: 5%;
+    text-align: center;
+    color: white;
+    font-family: "quicksand", sans-serif !important;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-left: 5px solid rgb(220, 243, 9);
+}
