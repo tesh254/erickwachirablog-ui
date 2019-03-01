@@ -11,13 +11,15 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --open",
-    "build": "webpack"
+    "dev": "webpack-dev-server --open",
+    "build": "webpack -p",
+    "start":"npm run build && node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.16.4",
     "history": "^4.7.2",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
