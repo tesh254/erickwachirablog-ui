@@ -7,8 +7,7 @@ const Navbar = () => (
     <NavLink to="/" id="link" className="active">
     😁 Explore
     </NavLink>
-    <NavLink to="/login" id="link">👍 Log In</NavLink>
-    <NavLink to="/signup" id="link">🔥 Sign Up</NavLink>
+    <NavLink to="/about" id="link">About</NavLink>
     <a href="javascript:void(0);" className="icon" onClick={myFunction}>
       <i className="fa fa-bars" />
     </a>
